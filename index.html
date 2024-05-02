@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+
+
+        <nav id="desktop-nav">
+            <div class="logo">Nick <span class="color2">Colijn</span></div>
+            <div>
+                <ul class="nav-links">
+                    <li><a class="un active" href="#home">Home</a></li>
+                    <li><a class="un" href="#overmij">Over Mij</a></li>
+                    <li><a class="un" href="#ervaring">Ervaring</a></li>
+                    <li><a class="un" href="#projecten">Projecten</a></li>
+                    <li><a class="un" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section id="home">
+            <div class="homepic-container">
+                <img class="homepic" src="assets/file.png" alt="homepic" />
+            </div>
+            <div class="sectiontext">
+                <h1 class="title">Nick <span class="color2">Colijn</span></h1>
+                <p class="sectiontext_p2">Student <span class="color2">Software</span> Developer</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('assets/cv van Nick Colijn.pdf')">
+                        Open CV
+                    </button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                        Contact Info
+                    </button>
+                </div>
+                <div id="socials-container">
+                    <a href="https://www.linkedin.com/in/nick-colijn-222a0825b/" target="_blank">
+                        <i class="fa-brands fa-linkedin fa-2xl" style="color: #00bab9;"></i>
+                    </a>
+                    <a href="https://github.com/nick091209" target="_blank">
+                        <i class="fa-brands fa-github fa-2xl" style="color: #00bab9;"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="overmij">
+            <div class="overmijtext">
+                <h2 class="overmij_title">Over <span class="color2">Mij</span></h2>
+                <p class="overmijtext_p2">Mijn naam is Nick, ik ben 17 jaar en woon in Huizen.
+                    sinds dit jaar ben ik een student bij ROC Amersfoort
+                    ik volg de opleiding Software Developer. Ik ben al van
+                    jongs af aan geïnteresseerd in computers en technologie.
+                    Ik heb altijd al willen weten hoe computers werken en hoe je ze
+                    kan programmeren. Daarom heb ik gekozen voor deze opleiding.</p>
+            </div>
+            <div class="overmijpic-container">
+                <img class="overmijpic" src="assets/fotoovermij.jpg" alt="overmijpic" />
+            </div>
+        </section>
+
+        <section id="ervaring">
+            <h2 class="ervaring_title">Mijn <span class="color2">Ervaring</span></h2>
+        </section>
+
+        <section id="projecten">
+            <!-- <h2 class="projecten_title">Mijn <span class="color2">Projecten</span></h2> -->
+            <div class="projecten-container">
+                <div class="projecten-box">
+                    <img src="images/techno.png" alt="">
+                    <div class="projecten-layer">
+                        <h4>Technowire</h4>
+                        <p>Klik hieronder om naar Technowire te gaan.</p>
+                        <a href="Technowire/index.html" target="_blank"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="projecten-box">
+                    <img src="images/gamecraftfoto.png" alt="">
+                    <div class="projecten-layer">
+                        <h4>Gamecraft</h4>
+                        <p>Klik hieronder om naar Gamecraft te gaan.</p>
+                        <a href="l2-pro-3-gamecraft-codedevs/html/index.html" target="_blank"><i
+                                class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="projecten-box">
+                    <img src="images/roulettefoto.png" alt="">
+                    <div class="projecten-layer">
+                        <h4>Roulette</h4>
+                        <p>Klik hieronder om naar de Roulette game te gaan.</p>
+                        <a href="Roulette/index.html" target="_blank"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="projecten-box">
+                    <img src="images/guestbooklogo.png" alt="">
+                    <div class="projecten-layer">
+                        <h4>Gastenboek</h4>
+                        <p>Klik hieronder om naar de Gastenboek te gaan.</p>
+                        <a href="#" target="_blank"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="contact_title">Contact <span class="color2">Info</span></h2>
+        </section>
+
+        <script src="https://kit.fontawesome.com/740dbd682a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
