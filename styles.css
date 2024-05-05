@@ -117,16 +117,17 @@ section {
 /* home */
 #home {
   display: flex;
+  align-items: center;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 100vh;
 }
 
 .homepic-container {
   display: flex;
   height: 400px;
   width: 400px;
-  margin: 11rem 0;
+  
 }
 
 .homepic {
@@ -140,9 +141,8 @@ section {
 }
 
 .sectiontext {
-  margin-top: 11rem;
+
   color: #fff;
-  align-self: center;
   text-align: center;
 }
 
