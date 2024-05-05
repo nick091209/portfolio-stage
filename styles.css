@@ -281,9 +281,9 @@ section {
 
 #projecten {
   display: flex;
-  justify-content: center;
   gap: 5rem;
   height: 100vh;
+  flex-direction: column;
 }
 
 .projecten_title {
@@ -300,69 +300,18 @@ section {
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   gap: 2.5rem;
+  height: auto;
 }
 
-.projecten-container .projecten-box {
-  position: relative;
-  border-radius: 2rem;
-  box-shadow: 0 0 1rem var(--bg-color);
-  overflow: hidden;
-  display: flex;
-}
-
-.projecten-box img {
-  width: 100%;
-  transition: 0.5s ease;
-}
-
-.projecten-box:hover img {
-  transform: scale(1.1);
-}
-
-.projecten-box .projecten-layer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(red, var(--main-color));
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.projectenbox {
+  background: #00bab9;
+  border-radius: 10px;
+  color: #fff;
+  height: 20rem;
+  font-weight: 600;
   text-align: center;
-  padding: 0 4rem;
-  transform: translateY(100%);
-  transition: 0.5s ease;
 }
 
-.projecten-box:hover .projecten-layer {
-  transform: translateY(0);
-}
-
-.projecten-layer h4 {
-  font-size: 3rem;
-}
-
-.projecten-layer p {
-  font-size: 1.6rem;
-  margin: 0.3rem 0 1rem;
-}
-
-.projecten-layer a {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 5rem;
-  height: 5rem;
-  background: var(--text-color);
-  border-radius: 50%;
-}
-
-.projecten-layer a i {
-  font-size: 2rem;
-  color: var(--second-bg-color);
-}
 
 /* contact */
 
