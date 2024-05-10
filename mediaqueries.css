@@ -31,7 +31,17 @@
 
 @media screen and (max-width: 1000px) {
  
+  .projecten-container {
+    display: flex;
+    flex-direction: column; /* Set flex direction to column */
+    align-items: center; /* Center items horizontally */
+    width: 100%; /* Make boxes full width */
+  }
 
+  .projectenbox {
+    width: 100%; /* Make boxes full width */
+    margin-bottom: 2rem; /* Add some space between boxes */
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -95,4 +105,6 @@
   .text-container {
     text-align: justify;
   }
+  
 } 
+
