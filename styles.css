@@ -114,6 +114,29 @@ section {
   display: flex;
 }
 
+/* hamburger menu */
+
+.open-menu,
+.close-menu {
+  position: absolute;
+  color: var(--color1);
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: none;
+}
+.open-menu {
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+.close-menu {
+  top: 20px;
+  right: 20px;
+}
+#check {
+  display: none;
+}
+
 /* home */
 #home {
   display: flex;
@@ -127,13 +150,12 @@ section {
   display: flex;
   height: 400px;
   width: 400px;
-  
 }
-
 .homepic {
   border-radius: 50%;
+  max-width: 100%;
+  height: auto;
 }
-
 .title {
   font-size: 3rem;
   margin: 1rem 0;
@@ -141,7 +163,6 @@ section {
 }
 
 .sectiontext {
-
   color: #fff;
   text-align: center;
 }
@@ -219,6 +240,23 @@ section {
   gap: 1rem;
 }
 
+.projectbtn {
+  font-weight: 700;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2.1rem;
+  color: #00bab9;
+  cursor: pointer;
+  border: #00bab9 0.1rem solid;
+}
+
+.projectbtn:hover {
+  background: #00bab9;
+  color: #fff;
+  border: #fff 0.1rem solid;
+}
+
 /* overmij */
 #overmij {
   display: flex;
@@ -244,6 +282,7 @@ section {
   color: #fff;
   text-align: left;
   font-weight: 800;
+  width: 50%;
 }
 
 .overmijtext_p2 {
@@ -295,8 +334,6 @@ section {
   justify-content: space-between;
 }
 
-
-
 /* projecten */
 
 #projecten {
@@ -309,6 +346,7 @@ section {
   text-align: center;
   align-items: flex-start;
   margin-top: 15vh;
+  margin-bottom: -2rem;
   color: #fff;
   font-weight: 800;
   font-size: 3rem;
@@ -331,13 +369,13 @@ section {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  text-align: center;
 }
 
 .projectenbox_title {
   font-weight: 800;
   font-size: 1.5rem;
-
 }
 
 .projectlink {
@@ -363,6 +401,15 @@ section {
   overflow: none;
 }
 
+.projectenimg1,
+.projectenimg2,
+.projectenimg3 {
+  width: 13rem;
+}
+
+.projectenimg2 {
+  margin-top: 1rem;
+}
 /* contact */
 
 #contact {
