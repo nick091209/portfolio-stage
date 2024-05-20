@@ -80,6 +80,21 @@
   .overmijtext {
     width: 100%;
   }
+  .overmijpic {
+    border-radius: 10%;
+    height: 70%;
+  }
 }
+
+@media screen and (max-width: 600px) {
+ .logo {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+ }
+ .homepic-container {
+  margin-top: 5rem;
+ }
+}
+
 
 
