@@ -1,5 +1,4 @@
 @media screen and (max-width: 1200px) {
-  
   #home {
     display: block;
   }
@@ -45,8 +44,6 @@
   }
 }
 
-
-
 @media screen and (max-width: 799px) {
   .un {
     display: none;
@@ -87,14 +84,23 @@
 }
 
 @media screen and (max-width: 600px) {
- .logo {
-  font-size: 1.5rem;
-  margin-left: 1rem;
- }
- .homepic-container {
-  margin-top: 5rem;
- }
+  .logo {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+  .homepic-container {
+    margin-top: 5rem;
+  }
 }
 
-
-
+@media screen and (max-width: 550px) {
+  .contact-info-container p {
+    font-size: medium;
+  }
+  .contact-info-container {
+    margin: 0.5rem;
+  }
+  .contact-info-upper-container {
+    border-radius: 4rem;
+  }
+}

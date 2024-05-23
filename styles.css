@@ -261,7 +261,6 @@ section {
   border: #fff 0.1rem solid;
 }
 
-
 /* overmij */
 #overmij {
   display: flex;
@@ -336,11 +335,11 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; 
-  transition: .5s ease;
-  border: #00bab9 0.2rem solid; 
-  position: relative; 
-  z-index: 1; 
+  justify-content: flex-start;
+  transition: 0.5s ease;
+  border: #00bab9 0.2rem solid;
+  position: relative;
+  z-index: 1;
   text-align: center;
 }
 
@@ -350,19 +349,17 @@ section {
 }
 
 .ervaringbox:hover {
-  border-color: #fff; 
+  border-color: #fff;
   transform: scale(1.02);
-  z-index: 2; 
+  z-index: 2;
 }
 
 .ervaringbox_title {
   font-weight: 800;
   font-size: 1.9rem;
   text-align: center;
-  margin-top: 0; 
+  margin-top: 0;
 }
-
-
 
 /* projecten */
 
@@ -391,7 +388,6 @@ section {
 .projectenp {
   font-weight: 600;
   font-size: 1rem;
-
 }
 
 .projectenbox {
@@ -458,17 +454,16 @@ section {
   font-size: 3rem;
 }
 
-
 .contact-info-upper-container {
   display: flex;
   justify-content: center;
   border-radius: 5rem;
   background: #00bab9;
-  margin: 2rem auto;
-  padding: 0.5rem;
-  width: 35rem;
-  gap: 2rem;
-  
+  margin: 0 auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  width: auto;
+  flex-wrap: wrap;
 }
 
 .contact-info-container {
@@ -490,21 +485,16 @@ section {
 }
 
 .contactlink::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
-  bottom: -4px; 
-  width: 0; 
+  bottom: -4px;
+  width: 0;
   height: 2px;
   background-color: #fff;
-  transition: width 0.3s ease; 
+  transition: width 0.3s ease;
 }
 
 .contactlink:hover::after {
-  width: 100%; 
+  width: 100%;
 }
-
-
-
-
-
